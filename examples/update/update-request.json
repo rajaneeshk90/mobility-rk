@@ -1,0 +1,28 @@
+{
+    "context": {
+        "domain": "{{ONDC_DOMAIN}}",
+        "city": "{{CITY}}",
+        "country": "{{COUNTRY}}",
+        "core_version": "{{CORE_VERSION}}",
+        "action": "update",
+        "bap_id": "{{BAP_ID}}",
+        "bap_uri": "{{BAP_URI}}",
+        "bpp_id": "{{BPP_ID}}",
+        "bpp_uri": "{{BPP_URI}}",
+        "transaction_id": "{{TRANSACTION_ID}}",
+        "message_id": "{{MESSAGE_ID}}",
+        "timestamp": "2023-03-23T04:41:16Z"
+    },
+    "message": {
+        "update_target": "order.payment.params.transaction_status",
+        "order": {
+            "id": "7751bd26-3fdc-47ca-9b64-e998dc5abe68",
+            "payment": {
+                "id": "7f7896dd-787e-4a0b-8675-e9e6fe93bb8f",
+                "params": {
+                    "transaction_status": "PAID"
+                }
+            }
+        }
+    }
+}
